@@ -42,6 +42,9 @@ Here, we show some useful commands to work with git:
 10) If you want to merge two branches, you need to move to the master branch and type: 
 
 	$ git merge other_branch
+ or 
+	$ git merge upstream/master, where upstream point to real fork and master is your default branch
+
 
 11) Create a new branch:
 
