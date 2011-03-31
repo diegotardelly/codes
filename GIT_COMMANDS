@@ -29,7 +29,7 @@ Here, we show some useful commands to work with git:
 
 7) If you want to pull some modifications of server repository, you can use the follow command line:
 
-	$ git fetch origin
+	$ git fetch remote_fork
 
 8) If you want to know what the branch you are:
 
@@ -41,14 +41,18 @@ Here, we show some useful commands to work with git:
 
 10) If you want to merge two branches, you need to move to the master branch and type: 
 
-	$ git merge other_branch
+	$ git merge name_branch
  or 
 	$ git merge upstream/master, where upstream point to real fork and master is your default branch
 
+11) Create/Delete a new branch:
 
-11) Create a new branch:
+	$ git branch name_of_branch (create)
+	$ git branch -d name_of_branch (delete)
 
-	$ git branch name_of_branch
+12) Adding a new branch into the any remote:
+
+	$ git push origin local_name_branch:remote_name_branch
 
 
 Steps to insert modifications in repository: 
