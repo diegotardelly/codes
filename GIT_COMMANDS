@@ -43,6 +43,10 @@ Here, we show some useful commands to work with git:
 
 	$ git merge other_branch
 
+11) Create a new branch:
+
+	$ git branch name_of_branch
+
 
 Steps to insert modifications in repository: 
 
