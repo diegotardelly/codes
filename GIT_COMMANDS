@@ -57,9 +57,20 @@ Here, we show some useful commands to work with git:
 
 Steps to insert modifications in repository: 
 
-	7) -> 8) -> 9) -> 4) -> 5) -> 9) -> 10) -> 6)
+	- git fetch upstream
+	- git merge upstream/master 
+	- git add something
+	- git commit 
+	- git push origin master
 
- 
+
+Steps to merge a pull request:
+
+	- git checkout master
+	- git remote add diego git://github.com/diegotardelly/codes.git
+	- git fetch diego
+	- git merge diego/master
+	- git push origin master
 
 
 
