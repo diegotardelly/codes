@@ -1,0 +1,54 @@
+Written by Rodrigo Braga (30/03/2011) 
+
+Here, we show some useful commands to work with git:
+
+
+1) Start a new project or repository, so you need to enter in project directory and type:
+
+	$ git init   ---  create skeleton of git.	
+
+2) Add repo origin:
+
+	$ git remote add origin git@github.com:username/repository_name 
+
+3) Pull repository of origin:
+	
+	$ git pull origin master
+
+4) Add some change: 
+
+	$ git add [file/directory] 
+
+5) Commit your changes:
+
+	$ git commit -m "Descrição" 
+
+6) Send your changes to server repository:
+
+	$ git push origin master 
+
+7) If you want to pull some modifications of server repository, you can use the follow command line:
+
+	$ git fetch origin
+
+8) If you want to know what the branch you are:
+
+	$ git branch
+
+9) Change atual branch:
+	
+	$ git checkout branch
+
+10) If you want to merge two branches, you need to move to the master branch and type: 
+
+	$ git merge other_branch
+
+
+Steps to insert modifications in repository: 
+
+	7) -> 8) -> 9) -> 4) -> 5) -> 9) -> 10) -> 6)
+
+ 
+
+
+
