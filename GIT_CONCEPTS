@@ -1,0 +1,47 @@
+Written by Diego Tardelly (31/03/2011)
+
+Here there are some concepts about git and your components:
+
+
+1) GIT
+	The git is for local versioning, you can share some ways, the easiest is with online services.
+
+2) GITHUB
+	Is the online system and interface of the GIT, where this area can see our changes to the repository and perform other applications.
+
+3) FORK
+	Fits below or add one to your GitHub repository.
+
+4) COMMIT
+	It is a command to generate a comment to a document or file posted.
+
+5) PUSH
+	It is a command to send files edited or created in the repository. Are being sent from source to branch.
+
+6) FETCH
+	It is a command used to see if there are any updates in the repository.
+
+7) PULL
+	Serves to fetch a specific branch and merge it into your current local branch.
+
+7) ORIGIN
+	Store local references
+
+8) BRANCH
+	The branch is used to handle files that are posted in the repository. Can be created several branchs on GitHub.
+
+9) MERGE
+	Serves to merge or merge changes made to the server or on another area of origin.
+
+10) CLONE
+	To grab a full copy of another user’s repo when you do not have a local repo already.
+
+
+
+
+References: 
+
+http://progit.org/
+http://help.github.com/remotes/
+
+
